@@ -98,7 +98,7 @@ export default function SignUpPage() {
         </div>
         <div className="mb-3">
           Already have an account?{' '}
-          <Link to={`signin?redirect=${redirect}`}>Sign-In here!</Link>
+          <Link to={`/signin?redirect=${redirect}`}>Sign-In here!</Link>
         </div>
       </Form>
     </Container>

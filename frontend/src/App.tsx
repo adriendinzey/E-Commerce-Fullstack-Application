@@ -25,6 +25,8 @@ import LoadingBox from './components/LoadingBox'
 import MessageBox from './components/MessageBox'
 import { APIError } from './types/APIErorr'
 import { getError } from './utils'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons/faGithub'
 function App() {
   const {
     state: { mode, cart, userInfo },
@@ -202,13 +204,22 @@ function App() {
 
       <footer className="footer">
         <div className="text-center">
-          Written by Adrien Dinzey.{' '}
-          <a href="https://github.com/adriendinzey">@GitHub</a>
+          Written by <a href="https://adriendinzey.github.io/">Adrien Dinzey</a>
+          .{' '}
+          <a href="https://linkedin.com/in/adriendinzey">
+            <FontAwesomeIcon icon={faLinkedinIn} />
+          </a>{' '}
+          <a href="https://github.com/adriendinzey">
+            <FontAwesomeIcon icon={faGithub} />
+          </a>
+        </div>
+        <div className="text-center">
+          <span>Candy icon created by Freepik - </span>
           <a
             href="https://www.flaticon.com/free-icons/candy"
             title="candy icons"
           >
-            Candy icon created by Freepik - Flaticon
+            Flaticon
           </a>
         </div>
       </footer>
