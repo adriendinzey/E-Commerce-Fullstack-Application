@@ -1,0 +1,139 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+div {
+  white-space: nowrap;
+}
+
+.col-sm-6,
+.col-md-4,
+.col-lg-3 {
+  padding: 5px;
+}
+
+.star {
+  color: gold;
+}
+
+.sun {
+  color: #fdb813;
+}
+
+.product-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  margin-top: auto;
+}
+
+img.large {
+  max-width: 100%;
+}
+
+img.thumbnail {
+  height: 80px;
+}
+
+.navbar {
+  background-color: #d21010;
+  color: white !important;
+}
+
+.sub-header {
+  background-color: #990b0b;
+  color: white !important;
+}
+
+.navbar-brand {
+  padding: 5px;
+  font-size: 1.6rem;
+}
+
+a.header-link:hover,
+.header-link > a:hover {
+  border: 1px #545252 solid;
+}
+
+.header .dropdown-item {
+  color: black !important;
+  background-color: white;
+}
+
+.header .dropdown-item a:hover {
+  border: 1px #545252 solid;
+}
+
+.cart-badge {
+  align-self: center;
+  font-weight: bold;
+}
+
+.small-container {
+  max-width: 600px;
+}
+
+.checkout-steps > div {
+  border-bottom: 0.2rem solid #a0a0a0;
+  color: #a0a0a0;
+}
+
+.checkout-steps > div.active {
+  border-bottom: 0.2rem solid #118302;
+  color: #118302;
+}
+
+.dropdown-menu[data-bs-popper] {
+  left: auto;
+  right: 0;
+}
+
+.btn-primary,
+.btn-outline-primary {
+  background-color: #199609;
+  color: black;
+}
+
+/* Sidebar */
+.side-navbar-backdrop {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.side-navbar {
+  width: 340px;
+  height: 100%;
+  position: absolute;
+  left: -350px;
+  background-color: #f5f5f5;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.active-nav {
+  left: 0;
+}
+
+.side-navbar-user {
+  background-color: #232f3e !important;
+  color: white;
+  font-weight: bold;
+}
+
+button.side-navbar-user:hover {
+  color: white;
+}
