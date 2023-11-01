@@ -2,7 +2,7 @@
 
 ### [Try out the live project here](https://fullstack-e-commerce-mern-application.onrender.com/)
 
-[View demo video here](https://www.youtube.com/embed/YrkLISfM2DU?si=yMvk7Z2IRBRSs5_E)
+[View demo video here](https://adriendinzey.github.io/images/E-Commerce%20Demo%20Video.mp4)
 
 ## About
 
