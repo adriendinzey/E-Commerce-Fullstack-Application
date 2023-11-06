@@ -1,6 +1,6 @@
 # MERN E-Commerce App "The Sweet Tooths' Swale"
 
-### [Try out the live project here](https://fullstack-e-commerce-mern-application.onrender.com/)
+### [Try out the live project here](https://fullstack-e-commerce-mern-application.onrender.com/) (Note this link will take some time to load if the application has not been used recently)
 
 [View demo video here](https://adriendinzey.github.io/images/E-Commerce%20Demo%20Video.mp4)
 
